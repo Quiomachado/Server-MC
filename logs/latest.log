@@ -1,85 +1,147 @@
-[16:46:42] [ServerMain/INFO]: Building unoptimized datafixer
-[16:46:42] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:46:43] [ServerMain/INFO]: Loaded 7 recipes
-[16:46:44] [ServerMain/INFO]: Loaded 1179 advancements
-[16:46:45] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[16:46:45] [Server thread/INFO]: Loading properties
-[16:46:45] [Server thread/INFO]: Default game type: SURVIVAL
-[16:46:45] [Server thread/INFO]: Generating keypair
-[16:46:45] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: The handle is invalid
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
-	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
-	at java.io.InputStreamReader.read(InputStreamReader.java:176) ~[?:?]
-	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
-	at afh$1.run(SourceFile:92) [server-1.19.2.jar:?]
-[16:46:45] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:46:45] [Server thread/INFO]: Using default channel type
-[16:46:45] [Server thread/INFO]: Preparing level "world"
-[16:47:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:47:01] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[16:47:01] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[16:47:01] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[16:47:02] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[16:47:02] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[16:47:03] [Worker-Main-4/INFO]: Preparing spawn area: 1%
-[16:47:03] [Worker-Main-6/INFO]: Preparing spawn area: 3%
-[16:47:04] [Worker-Main-4/INFO]: Preparing spawn area: 4%
-[16:47:04] [Worker-Main-3/INFO]: Preparing spawn area: 6%
-[16:47:05] [Worker-Main-6/INFO]: Preparing spawn area: 6%
-[16:47:05] [Worker-Main-4/INFO]: Preparing spawn area: 9%
-[16:47:06] [Worker-Main-3/INFO]: Preparing spawn area: 10%
-[16:47:06] [Worker-Main-3/INFO]: Preparing spawn area: 12%
-[16:47:07] [Worker-Main-4/INFO]: Preparing spawn area: 15%
-[16:47:07] [Worker-Main-1/INFO]: Preparing spawn area: 17%
-[16:47:08] [Worker-Main-4/INFO]: Preparing spawn area: 18%
-[16:47:08] [Worker-Main-3/INFO]: Preparing spawn area: 21%
-[16:47:09] [Worker-Main-9/INFO]: Preparing spawn area: 23%
-[16:47:09] [Worker-Main-3/INFO]: Preparing spawn area: 25%
-[16:47:10] [Worker-Main-4/INFO]: Preparing spawn area: 28%
-[16:47:10] [Worker-Main-1/INFO]: Preparing spawn area: 30%
-[16:47:11] [Worker-Main-8/INFO]: Preparing spawn area: 32%
-[16:47:11] [Worker-Main-4/INFO]: Preparing spawn area: 34%
-[16:47:12] [Worker-Main-4/INFO]: Preparing spawn area: 37%
-[16:47:12] [Worker-Main-10/INFO]: Preparing spawn area: 39%
-[16:47:13] [Worker-Main-2/INFO]: Preparing spawn area: 42%
-[16:47:13] [Worker-Main-3/INFO]: Preparing spawn area: 43%
-[16:47:14] [Worker-Main-5/INFO]: Preparing spawn area: 46%
-[16:47:14] [Worker-Main-3/INFO]: Preparing spawn area: 49%
-[16:47:15] [Worker-Main-11/INFO]: Preparing spawn area: 52%
-[16:47:15] [Worker-Main-3/INFO]: Preparing spawn area: 55%
-[16:47:16] [Worker-Main-11/INFO]: Preparing spawn area: 57%
-[16:47:16] [Worker-Main-1/INFO]: Preparing spawn area: 58%
-[16:47:17] [Worker-Main-7/INFO]: Preparing spawn area: 62%
-[16:47:17] [Worker-Main-4/INFO]: Preparing spawn area: 65%
-[16:47:18] [Worker-Main-2/INFO]: Preparing spawn area: 68%
-[16:47:18] [Worker-Main-6/INFO]: Preparing spawn area: 70%
-[16:47:19] [Worker-Main-10/INFO]: Preparing spawn area: 73%
-[16:47:19] [Worker-Main-1/INFO]: Preparing spawn area: 77%
-[16:47:20] [Worker-Main-7/INFO]: Preparing spawn area: 79%
-[16:47:20] [Worker-Main-11/INFO]: Preparing spawn area: 83%
-[16:47:21] [Worker-Main-10/INFO]: Preparing spawn area: 84%
-[16:47:21] [Worker-Main-9/INFO]: Preparing spawn area: 87%
-[16:47:22] [Worker-Main-2/INFO]: Preparing spawn area: 90%
-[16:47:22] [Worker-Main-5/INFO]: Preparing spawn area: 93%
-[16:47:23] [Worker-Main-3/INFO]: Preparing spawn area: 96%
-[16:47:23] [Server thread/INFO]: Time elapsed: 22981 ms
-[16:47:23] [Server thread/INFO]: Done (38.223s)! For help, type "help"
-[16:47:27] [Server thread/INFO]: Stopping the server
-[16:47:27] [Server thread/INFO]: Stopping server
-[16:47:27] [Server thread/INFO]: Saving players
-[16:47:27] [Server thread/INFO]: Saving worlds
-[16:47:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:47:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[16:47:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[16:47:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:47:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:47:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:47:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:01:06] [ServerMain/INFO]: Building unoptimized datafixer
+[17:01:06] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:01:08] [ServerMain/INFO]: Loaded 7 recipes
+[17:01:08] [ServerMain/INFO]: Loaded 1179 advancements
+[17:01:09] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[17:01:09] [Server thread/INFO]: Loading properties
+[17:01:09] [Server thread/INFO]: Default game type: SURVIVAL
+[17:01:09] [Server thread/INFO]: Generating keypair
+[17:01:09] [Server thread/INFO]: Starting Minecraft server on 192.168.1.73:25565
+[17:01:09] [Server thread/INFO]: Using default channel type
+[17:01:09] [Server thread/INFO]: Preparing level "world"
+[17:01:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:01:11] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:01:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:01:11] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[17:01:11] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:01:11] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[17:01:12] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:01:12] [Worker-Main-4/INFO]: Preparing spawn area: 66%
+[17:01:12] [Server thread/INFO]: Time elapsed: 3242 ms
+[17:01:12] [Server thread/INFO]: Done (3.402s)! For help, type "help"
+[17:01:20] [User Authenticator #1/INFO]: UUID of player Q3b4H is da1ab462-f849-47d9-9c3b-f170edd42e1f
+[17:01:20] [Server thread/INFO]: Q3b4H[/95.136.82.192:55747] logged in with entity id 124 at (802.759352666971, 38.0, 1526.699999988079)
+[17:01:20] [Server thread/INFO]: Q3b4H joined the game
+[17:01:57] [Server thread/INFO]: Q3b4H has made the advancement [Isn't It Iron Pick]
+[17:02:09] [User Authenticator #2/INFO]: UUID of player Goyaba is 157f5822-c2b2-42bb-a686-990facfd8f55
+[17:02:09] [Server thread/INFO]: Goyaba[/85.242.119.213:59223] logged in with entity id 496 at (481.9192129126251, -51.0, 267.0985920783969)
+[17:02:09] [Server thread/INFO]: Goyaba joined the game
+[17:02:47] [User Authenticator #3/INFO]: UUID of player AmeliaCouves is 8dba3b54-e08e-465c-8548-27dee6972a51
+[17:02:47] [Server thread/INFO]: AmeliaCouves[/46.189.233.255:51658] logged in with entity id 742 at (377.76249998807907, 6.0, 560.6999999880791)
+[17:02:47] [Server thread/INFO]: AmeliaCouves joined the game
+[17:04:21] [Server thread/INFO]: AmeliaCouves has made the advancement [Not Today, Thank You]
+[17:05:02] [Server thread/INFO]: com.mojang.authlib.GameProfile@50e36b09[id=<null>,name=Quiomachado,properties={},legacy=false] (/192.168.1.73:65203) lost connection: Disconnected
+[17:05:14] [Server thread/INFO]: com.mojang.authlib.GameProfile@365ffb56[id=<null>,name=Quiomachado,properties={},legacy=false] (/192.168.1.73:65209) lost connection: Disconnected
+[17:05:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[17:05:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6043ms or 120 ticks behind
+[17:07:26] [Server thread/INFO]: com.mojang.authlib.GameProfile@72789453[id=<null>,name=Quiomachado,properties={},legacy=false] (/192.168.1.73:65250) lost connection: Disconnected
+[17:07:47] [Server thread/INFO]: com.mojang.authlib.GameProfile@31877f16[id=<null>,name=Quiomachado,properties={},legacy=false] (/85.246.11.164:59724) lost connection: Disconnected
+[17:07:49] [Server thread/INFO]: com.mojang.authlib.GameProfile@57b849f7[id=<null>,name=Quiomachado,properties={},legacy=false] (/85.246.11.164:59726) lost connection: Disconnected
+[17:07:51] [Server thread/INFO]: com.mojang.authlib.GameProfile@5c0feba8[id=<null>,name=Quiomachado,properties={},legacy=false] (/85.246.11.164:59727) lost connection: Disconnected
+[17:08:44] [Server thread/INFO]: Q3b4H has made the advancement [Diamonds!]
+[17:12:23] [Server thread/INFO]: Goyaba has made the advancement [Diamonds!]
+[17:15:47] [Server thread/INFO]: Goyaba tried to swim in lava
+[17:15:55] [User Authenticator #4/INFO]: UUID of player Fakamary is 9d564606-32ee-4e27-a406-6384dd3f0515
+[17:15:55] [Server thread/INFO]: Fakamary[/79.168.249.34:51013] logged in with entity id 7521 at (479.05065655539113, -52.0, 268.69999998807907)
+[17:15:55] [Server thread/INFO]: Fakamary joined the game
+[17:23:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2081ms or 41 ticks behind
+[17:23:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3621ms or 72 ticks behind
+[17:23:53] [Server thread/INFO]: com.mojang.authlib.GameProfile@67a0b4f1[id=<null>,name=Quiomachado,properties={},legacy=false] (/85.246.11.164:62410) lost connection: Disconnected
+[17:23:54] [Server thread/INFO]: com.mojang.authlib.GameProfile@1e482b86[id=<null>,name=Quiomachado,properties={},legacy=false] (/192.168.1.73:62411) lost connection: Disconnected
+[17:23:58] [Server thread/INFO]: com.mojang.authlib.GameProfile@2b0a77ac[id=<null>,name=Quiomachado,properties={},legacy=false] (/192.168.1.73:62420) lost connection: Disconnected
+[17:25:53] [Server thread/INFO]: <Q3b4H> 140 66 657
+[17:27:19] [Server thread/INFO]: com.mojang.authlib.GameProfile@40962804[id=<null>,name=Quiomachado,properties={},legacy=false] (/192.168.1.73:62451) lost connection: Disconnected
+[17:31:27] [Server thread/INFO]: AmeliaCouves has made the advancement [Diamonds!]
+[17:32:38] [Server thread/INFO]: Fakamary has made the advancement [Suit Up]
+[17:39:58] [Server thread/INFO]: Fakamary has made the advancement [Not Today, Thank You]
+[17:41:19] [Server thread/INFO]: AmeliaCouves lost connection: Disconnected
+[17:41:19] [Server thread/INFO]: AmeliaCouves left the game
+[17:42:00] [User Authenticator #5/INFO]: UUID of player AmeliaCouves is 8dba3b54-e08e-465c-8548-27dee6972a51
+[17:42:00] [Server thread/INFO]: AmeliaCouves[/46.189.233.255:64740] logged in with entity id 30641 at (635.4341071618223, 46.92354738340731, 1074.373426941786)
+[17:42:00] [Server thread/INFO]: AmeliaCouves joined the game
+[17:42:21] [Server thread/INFO]: Goyaba lost connection: Disconnected
+[17:42:21] [Server thread/INFO]: Goyaba left the game
+[17:42:23] [Server thread/INFO]: AmeliaCouves lost connection: Disconnected
+[17:42:23] [Server thread/INFO]: AmeliaCouves left the game
+[17:42:24] [User Authenticator #6/INFO]: UUID of player Goyaba is 157f5822-c2b2-42bb-a686-990facfd8f55
+[17:42:24] [Server thread/INFO]: Goyaba[/85.242.119.213:56052] logged in with entity id 31029 at (813.6019661935293, 71.0, 1481.5097860013952)
+[17:42:24] [Server thread/INFO]: Goyaba joined the game
+[17:43:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2035ms or 40 ticks behind
+[17:43:09] [Server thread/INFO]: Goyaba drowned
+[17:43:09] [User Authenticator #7/INFO]: UUID of player AmeliaCouves is 8dba3b54-e08e-465c-8548-27dee6972a51
+[17:43:09] [Server thread/INFO]: AmeliaCouves[/46.189.233.255:64746] logged in with entity id 31698 at (626.8384448711075, 62.0, 1070.4921923636955)
+[17:43:09] [Server thread/INFO]: AmeliaCouves joined the game
+[17:43:11] [Server thread/WARN]: Fakamary moved too quickly! 9.661945483061004,0.49520087700592086,-3.57731738382941
+[17:43:15] [Server thread/INFO]: AmeliaCouves lost connection: Disconnected
+[17:43:15] [Server thread/INFO]: AmeliaCouves left the game
+[17:43:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4919ms or 98 ticks behind
+[17:43:42] [User Authenticator #8/INFO]: UUID of player AmeliaCouves is 8dba3b54-e08e-465c-8548-27dee6972a51
+[17:43:42] [Server thread/INFO]: AmeliaCouves[/46.189.233.255:64760] logged in with entity id 32075 at (626.8384448711075, 62.0, 1070.4921923636955)
+[17:43:42] [User Authenticator #9/INFO]: UUID of player Quiomachado is 6f430dde-996d-4ce8-ac13-9a1aad8722f0
+[17:43:43] [Server thread/INFO]: AmeliaCouves joined the game
+[17:43:44] [Server thread/INFO]: Quiomachado[/192.168.1.73:57180] logged in with entity id 32081 at (490.5, 71.0, 109.5)
+[17:43:44] [Server thread/INFO]: Quiomachado joined the game
+[17:43:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3784ms or 75 ticks behind
+[17:46:21] [Server thread/INFO]: Quiomachado has made the advancement [Stone Age]
+[17:46:26] [Server thread/INFO]: Quiomachado has made the advancement [Getting an Upgrade]
+[17:47:11] [Server thread/INFO]: Quiomachado has made the advancement [Monster Hunter]
+[17:48:01] [Server thread/INFO]: AmeliaCouves lost connection: Disconnected
+[17:48:01] [Server thread/INFO]: AmeliaCouves left the game
+[17:48:24] [User Authenticator #10/INFO]: UUID of player AmeliaCouves is 8dba3b54-e08e-465c-8548-27dee6972a51
+[17:48:24] [Server thread/INFO]: AmeliaCouves[/46.189.233.255:63410] logged in with entity id 38157 at (126.98892727201665, 66.0, 917.9431701133873)
+[17:48:24] [Server thread/INFO]: AmeliaCouves joined the game
+[17:54:23] [Server thread/INFO]: <Quiomachado> 696 68 364
+[17:54:33] [Server thread/INFO]: AmeliaCouves lost connection: Disconnected
+[17:54:33] [Server thread/INFO]: AmeliaCouves left the game
+[17:54:56] [Server thread/INFO]: Goyaba lost connection: Disconnected
+[17:54:56] [Server thread/INFO]: Goyaba left the game
+[17:54:57] [Server thread/INFO]: Quiomachado lost connection: Disconnected
+[17:54:57] [Server thread/INFO]: Quiomachado left the game
+[17:55:05] [User Authenticator #11/INFO]: UUID of player Quiomachado is 6f430dde-996d-4ce8-ac13-9a1aad8722f0
+[17:55:05] [User Authenticator #12/INFO]: UUID of player Goyaba is 157f5822-c2b2-42bb-a686-990facfd8f55
+[17:55:05] [Server thread/INFO]: Quiomachado[/192.168.1.73:55351] logged in with entity id 48060 at (735.031925690508, 66.0, 471.1128412585215)
+[17:55:05] [Server thread/INFO]: Quiomachado joined the game
+[17:55:05] [Server thread/INFO]: Goyaba[/85.242.119.213:56768] logged in with entity id 48061 at (-188.15377659526877, 63.0, -171.4257634095215)
+[17:55:05] [Server thread/INFO]: Goyaba joined the game
+[17:56:04] [Server thread/INFO]: Q3b4H fell from a high place
+[18:00:13] [Server thread/INFO]: Quiomachado has made the advancement [Acquire Hardware]
+[18:06:04] [Server thread/INFO]: Q3b4H lost connection: Disconnected
+[18:06:04] [Server thread/INFO]: Q3b4H left the game
+[18:06:18] [Server thread/INFO]: Quiomachado has made the advancement [Sweet Dreams]
+[18:08:12] [User Authenticator #13/INFO]: UUID of player Q3b4H is da1ab462-f849-47d9-9c3b-f170edd42e1f
+[18:08:12] [Server thread/INFO]: Q3b4H[/95.136.82.192:56315] logged in with entity id 65134 at (215.73858365150267, 82.0, 674.3000000119209)
+[18:08:12] [Server thread/INFO]: Q3b4H joined the game
+[18:09:27] [Server thread/INFO]: Q3b4H lost connection: Disconnected
+[18:09:27] [Server thread/INFO]: Q3b4H left the game
+[18:12:49] [Server thread/INFO]: <Quiomachado> 2485 64 244
+[18:14:58] [Server thread/INFO]: <Quiomachado> tartarugas ^
+[18:15:11] [Server thread/INFO]: <Quiomachado> 2804 62 326 coraIS
+[18:19:22] [Server thread/INFO]: <Quiomachado> niggers
+[18:19:37] [Server thread/INFO]: Fakamary lost connection: Disconnected
+[18:19:37] [Server thread/INFO]: Fakamary left the game
+[18:22:08] [Server thread/INFO]: Quiomachado has made the advancement [Ice Bucket Challenge]
+[18:23:18] [User Authenticator #14/INFO]: UUID of player AmeliaCouves is 8dba3b54-e08e-465c-8548-27dee6972a51
+[18:23:18] [Server thread/INFO]: AmeliaCouves[/46.189.233.255:64517] logged in with entity id 76181 at (-1225.9298729770671, 69.0, 572.2933578704617)
+[18:23:18] [Server thread/INFO]: AmeliaCouves joined the game
+[18:24:19] [Server thread/INFO]: AmeliaCouves lost connection: Disconnected
+[18:24:19] [Server thread/INFO]: AmeliaCouves left the game
+[18:28:34] [Server thread/INFO]: <Quiomachado> spot decente: 2835 62 -140
+[18:35:50] [Server thread/INFO]: Quiomachado has made the advancement [Best Friends Forever]
+[18:47:54] [Server thread/INFO]: <Quiomachado> 3978 64 -2504
+[18:48:00] [Server thread/INFO]: <Quiomachado> nice spot
+[18:48:12] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=3978, y=64, z=-2587} gt{x=3978, y=63, z=-2584}
+[18:48:27] [Server thread/INFO]: Quiomachado lost connection: Disconnected
+[18:48:27] [Server thread/INFO]: Quiomachado left the game
+[18:48:45] [Server thread/INFO]: Goyaba lost connection: Disconnected
+[18:48:45] [Server thread/INFO]: Goyaba left the game
+[19:42:39] [Server thread/INFO]: Stopping the server
+[19:42:39] [Server thread/INFO]: Stopping server
+[19:42:39] [Server thread/INFO]: Saving players
+[19:42:39] [Server thread/INFO]: Saving worlds
+[19:42:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[servidor do candieiro]'/minecraft:overworld
+[19:42:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[servidor do candieiro]'/minecraft:the_nether
+[19:42:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[servidor do candieiro]'/minecraft:the_end
+[19:42:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:42:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:42:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:42:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
