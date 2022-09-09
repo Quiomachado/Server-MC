@@ -125,6 +125,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2022-09-07 21:18:23 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2022-09-04 16:09:34 +0100"
@@ -146,6 +152,12 @@
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2022-09-04 17:34:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2022-09-07 22:37:37 +0100"
     },
     "done": true
   },
@@ -754,12 +766,23 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2022-09-07 21:18:23 +0100"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2022-09-07 22:45:01 +0100",
       "minecraft:skeleton": "2022-09-04 16:23:27 +0100",
       "minecraft:spider": "2022-09-04 16:26:33 +0100",
       "minecraft:creeper": "2022-09-04 16:14:25 +0100",
-      "minecraft:zombie": "2022-09-04 16:19:50 +0100"
+      "minecraft:slime": "2022-09-07 22:03:33 +0100",
+      "minecraft:phantom": "2022-09-07 21:23:15 +0100",
+      "minecraft:cave_spider": "2022-09-07 22:12:42 +0100",
+      "minecraft:zombie": "2022-09-04 16:19:50 +0100",
+      "minecraft:zombie_villager": "2022-09-07 22:07:57 +0100"
     },
     "done": false
   },
@@ -913,6 +936,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2022-09-07 22:55:19 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
     "criteria": {
       "has_porkchop": "2022-09-04 16:17:01 +0100"
@@ -1000,6 +1029,12 @@
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_white_wool": "2022-09-04 16:16:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2022-09-07 22:03:42 +0100"
     },
     "done": true
   },
@@ -1132,6 +1167,12 @@
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2022-09-04 17:34:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2022-09-07 22:03:42 +0100"
     },
     "done": true
   },
@@ -1309,6 +1350,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2022-09-07 22:03:42 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
       "has_cobblestone": "2022-09-04 16:12:12 +0100"
@@ -1337,12 +1384,17 @@
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2022-09-04 17:47:43 +0100",
       "minecraft:taiga": "2022-09-04 17:28:01 +0100",
+      "minecraft:sunflower_plains": "2022-09-07 22:11:03 +0100",
       "minecraft:beach": "2022-09-04 16:24:38 +0100",
       "minecraft:river": "2022-09-04 17:30:05 +0100",
       "minecraft:snowy_plains": "2022-09-04 16:08:50 +0100",
+      "minecraft:dripstone_caves": "2022-09-07 21:24:44 +0100",
       "minecraft:cold_ocean": "2022-09-04 17:26:53 +0100",
       "minecraft:forest": "2022-09-04 16:11:43 +0100",
+      "minecraft:ocean": "2022-09-07 22:22:32 +0100",
       "minecraft:old_growth_spruce_taiga": "2022-09-04 17:48:48 +0100",
+      "minecraft:deep_dark": "2022-09-07 21:28:17 +0100",
+      "minecraft:meadow": "2022-09-07 22:11:22 +0100",
       "minecraft:plains": "2022-09-04 16:11:10 +0100"
     },
     "done": false
@@ -1395,6 +1447,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2022-09-07 22:59:50 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
       "has_cobblestone": "2022-09-04 16:12:12 +0100"
@@ -1434,6 +1492,12 @@
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2022-09-04 16:12:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2022-09-07 21:23:15 +0100"
     },
     "done": true
   },
